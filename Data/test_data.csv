@@ -1,0 +1,201 @@
+Test_ID,Date,Device_ID,Equipment,Power,WiFi,Camera,Linux_Check,Python_Script,Reliability_Test,Overall_Result,Issue
+T001,1/2/2026,D001,Server,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T002,1/3/2026,D002,Server,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T003,1/4/2026,D003,Router,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T004,1/5/2026,D004,Server,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T005,1/6/2026,D005,Mobile_Device,Fail,Pass,Pass,Fail,Pass,Pass,Fail,WiFi Failure
+T006,1/7/2026,D006,Router,Pass,Pass,Pass,Pass,Fail,Pass,Fail,Script Error
+T007,1/8/2026,D007,Switch,Pass,Fail,Fail,Fail,Pass,Fail,Fail,Linux Error
+T008,1/9/2026,D008,Switch,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T009,1/10/2026,D009,Server,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T010,1/11/2026,D010,Mobile_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T011,1/12/2026,D011,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T012,1/13/2026,D012,IoT_Device,Pass,Fail,Pass,Pass,Fail,Pass,Fail,Linux Error
+T013,1/14/2026,D013,Router,Pass,Pass,Pass,Pass,Fail,Pass,Fail,Script Error
+T014,1/15/2026,D014,IoT_Device,Pass,Pass,Fail,Fail,Pass,Pass,Fail,Camera Failure
+T015,1/16/2026,D015,Router,Pass,Pass,Fail,Pass,Pass,Pass,Fail,Camera Failure
+T016,1/17/2026,D016,Server,Pass,Fail,Pass,Pass,Fail,Pass,Fail,Camera Failure
+T017,1/18/2026,D017,Router,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T018,1/19/2026,D018,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T019,1/20/2026,D019,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T020,1/21/2026,D020,Server,Pass,Pass,Pass,Pass,Pass,Fail,Fail,Linux Error
+T021,1/22/2026,D021,IoT_Device,Fail,Pass,Pass,Pass,Pass,Fail,Fail,Camera Failure
+T022,1/23/2026,D022,Mobile_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T023,1/24/2026,D023,Switch,Fail,Pass,Pass,Pass,Pass,Pass,Fail,Script Error
+T024,1/25/2026,D024,Mobile_Device,Pass,Pass,Pass,Fail,Pass,Fail,Fail,Script Error
+T025,1/26/2026,D025,IoT_Device,Pass,Pass,Fail,Pass,Pass,Pass,Fail,Power Failure
+T026,1/27/2026,D026,Router,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T027,1/28/2026,D027,Switch,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T028,1/29/2026,D028,Mobile_Device,Pass,Pass,Fail,Pass,Pass,Pass,Fail,Linux Error
+T029,1/30/2026,D029,Router,Pass,Pass,Fail,Pass,Pass,Pass,Fail,WiFi Failure
+T030,1/31/2026,D030,Router,Pass,Pass,Pass,Pass,Pass,Fail,Fail,WiFi Failure
+T031,2/1/2026,D031,Server,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T032,2/2/2026,D032,Server,Pass,Pass,Pass,Pass,Fail,Pass,Fail,Power Failure
+T033,2/3/2026,D033,Mobile_Device,Pass,Pass,Pass,Pass,Pass,Fail,Fail,Power Failure
+T034,2/4/2026,D034,Mobile_Device,Pass,Fail,Pass,Pass,Pass,Pass,Fail,Power Failure
+T035,2/5/2026,D035,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T036,2/6/2026,D036,Mobile_Device,Pass,Fail,Pass,Pass,Pass,Pass,Fail,WiFi Failure
+T037,2/7/2026,D037,Switch,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T038,2/8/2026,D038,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T039,2/9/2026,D039,Mobile_Device,Fail,Pass,Pass,Pass,Pass,Pass,Fail,Power Failure
+T040,2/10/2026,D040,Server,Pass,Fail,Pass,Pass,Pass,Pass,Fail,Power Failure
+T041,2/11/2026,D041,IoT_Device,Pass,Pass,Pass,Pass,Pass,Fail,Fail,WiFi Failure
+T042,2/12/2026,D042,Router,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T043,2/13/2026,D043,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T044,2/14/2026,D044,Mobile_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T045,2/15/2026,D045,Mobile_Device,Pass,Pass,Pass,Fail,Pass,Pass,Fail,Linux Error
+T046,2/16/2026,D046,Server,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T047,2/17/2026,D047,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T048,2/18/2026,D048,IoT_Device,Fail,Pass,Pass,Pass,Pass,Pass,Fail,Power Failure
+T049,2/19/2026,D049,Switch,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T050,2/20/2026,D050,Switch,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T051,2/21/2026,D051,Server,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T052,2/22/2026,D052,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T053,2/23/2026,D053,Server,Pass,Pass,Pass,Pass,Fail,Pass,Fail,Power Failure
+T054,2/24/2026,D054,Router,Pass,Pass,Pass,Pass,Fail,Pass,Fail,WiFi Failure
+T055,2/25/2026,D055,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T056,2/26/2026,D056,IoT_Device,Pass,Pass,Pass,Pass,Pass,Fail,Fail,WiFi Failure
+T057,2/27/2026,D057,Server,Pass,Pass,Fail,Pass,Pass,Pass,Fail,Power Failure
+T058,2/28/2026,D058,Server,Fail,Pass,Pass,Fail,Pass,Pass,Fail,Power Failure
+T059,3/1/2026,D059,Server,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T060,3/2/2026,D060,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T061,3/3/2026,D061,Server,Fail,Pass,Pass,Fail,Pass,Pass,Fail,WiFi Failure
+T062,3/4/2026,D062,Router,Pass,Fail,Pass,Pass,Pass,Pass,Fail,Power Failure
+T063,3/5/2026,D063,Router,Pass,Fail,Pass,Pass,Pass,Pass,Fail,Power Failure
+T064,3/6/2026,D064,Server,Pass,Fail,Fail,Pass,Pass,Pass,Fail,WiFi Failure
+T065,3/7/2026,D065,Switch,Pass,Pass,Pass,Pass,Pass,Fail,Fail,Script Error
+T066,3/8/2026,D066,Router,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T067,3/9/2026,D067,Server,Fail,Pass,Pass,Pass,Pass,Pass,Fail,Script Error
+T068,3/10/2026,D068,Router,Pass,Pass,Fail,Pass,Fail,Pass,Fail,Script Error
+T069,3/11/2026,D069,Switch,Fail,Pass,Fail,Pass,Pass,Pass,Fail,Power Failure
+T070,3/12/2026,D070,IoT_Device,Pass,Pass,Pass,Pass,Pass,Fail,Fail,Camera Failure
+T071,3/13/2026,D071,Router,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T072,3/14/2026,D072,IoT_Device,Fail,Pass,Fail,Fail,Pass,Pass,Fail,WiFi Failure
+T073,3/15/2026,D073,Server,Fail,Fail,Pass,Pass,Pass,Pass,Fail,Camera Failure
+T074,3/16/2026,D074,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T075,3/17/2026,D075,Switch,Pass,Fail,Pass,Pass,Pass,Pass,Fail,WiFi Failure
+T076,3/18/2026,D076,IoT_Device,Pass,Pass,Pass,Pass,Pass,Fail,Fail,Power Failure
+T077,3/19/2026,D077,Server,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T078,3/20/2026,D078,Switch,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T079,3/21/2026,D079,Switch,Fail,Pass,Pass,Pass,Pass,Pass,Fail,Linux Error
+T080,3/22/2026,D080,Switch,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T081,3/23/2026,D081,IoT_Device,Fail,Pass,Pass,Pass,Pass,Pass,Fail,Script Error
+T082,3/24/2026,D082,Router,Pass,Pass,Fail,Pass,Pass,Fail,Fail,Power Failure
+T083,3/25/2026,D083,IoT_Device,Pass,Fail,Pass,Pass,Fail,Pass,Fail,Script Error
+T084,3/26/2026,D084,Switch,Pass,Pass,Pass,Pass,Fail,Pass,Fail,WiFi Failure
+T085,3/27/2026,D085,IoT_Device,Fail,Pass,Pass,Pass,Pass,Fail,Fail,Camera Failure
+T086,3/28/2026,D086,Mobile_Device,Fail,Fail,Pass,Pass,Pass,Pass,Fail,WiFi Failure
+T087,3/29/2026,D087,Switch,Fail,Pass,Pass,Pass,Pass,Pass,Fail,Power Failure
+T088,3/30/2026,D088,Mobile_Device,Pass,Pass,Fail,Pass,Pass,Fail,Fail,Linux Error
+T089,3/31/2026,D089,Switch,Pass,Pass,Pass,Fail,Pass,Pass,Fail,Camera Failure
+T090,4/1/2026,D090,Mobile_Device,Fail,Pass,Pass,Fail,Fail,Fail,Fail,WiFi Failure
+T091,4/2/2026,D091,Mobile_Device,Fail,Fail,Fail,Pass,Pass,Fail,Fail,Linux Error
+T092,4/3/2026,D092,Switch,Pass,Pass,Pass,Pass,Pass,Fail,Fail,Camera Failure
+T093,4/4/2026,D093,Switch,Pass,Pass,Pass,Fail,Pass,Pass,Fail,Linux Error
+T094,4/5/2026,D094,Server,Pass,Pass,Pass,Pass,Pass,Fail,Fail,Power Failure
+T095,4/6/2026,D095,Router,Pass,Pass,Fail,Pass,Pass,Pass,Fail,Linux Error
+T096,4/7/2026,D096,Router,Pass,Pass,Pass,Pass,Pass,Fail,Fail,Script Error
+T097,4/8/2026,D097,Switch,Pass,Fail,Fail,Pass,Pass,Fail,Fail,Camera Failure
+T098,4/9/2026,D098,Mobile_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T099,4/10/2026,D099,Mobile_Device,Fail,Pass,Pass,Pass,Pass,Pass,Fail,Power Failure
+T100,4/11/2026,D100,Router,Pass,Pass,Pass,Fail,Pass,Pass,Fail,Camera Failure
+T101,4/12/2026,D101,Switch,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T102,4/13/2026,D102,Mobile_Device,Pass,Pass,Pass,Pass,Pass,Fail,Fail,Power Failure
+T103,4/14/2026,D103,IoT_Device,Pass,Pass,Pass,Pass,Fail,Pass,Fail,Script Error
+T104,4/15/2026,D104,IoT_Device,Pass,Pass,Pass,Pass,Pass,Fail,Fail,Linux Error
+T105,4/16/2026,D105,Mobile_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T106,4/17/2026,D106,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T107,4/18/2026,D107,Switch,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T108,4/19/2026,D108,Mobile_Device,Fail,Fail,Fail,Pass,Pass,Pass,Fail,Power Failure
+T109,4/20/2026,D109,Server,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T110,4/21/2026,D110,Router,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T111,4/22/2026,D111,Router,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T112,4/23/2026,D112,Router,Pass,Pass,Fail,Fail,Pass,Fail,Fail,WiFi Failure
+T113,4/24/2026,D113,Switch,Fail,Pass,Fail,Pass,Pass,Pass,Fail,Linux Error
+T114,4/25/2026,D114,Server,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T115,4/26/2026,D115,Server,Fail,Pass,Pass,Pass,Pass,Fail,Fail,Linux Error
+T116,4/27/2026,D116,Switch,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T117,4/28/2026,D117,Router,Pass,Pass,Pass,Pass,Fail,Pass,Fail,Script Error
+T118,4/29/2026,D118,IoT_Device,Pass,Pass,Pass,Pass,Fail,Pass,Fail,Linux Error
+T119,4/30/2026,D119,Router,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T120,5/1/2026,D120,Server,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T121,5/2/2026,D121,Switch,Pass,Pass,Pass,Pass,Pass,Fail,Fail,Script Error
+T122,5/3/2026,D122,Router,Pass,Fail,Pass,Pass,Pass,Pass,Fail,Linux Error
+T123,5/4/2026,D123,Server,Fail,Fail,Fail,Pass,Pass,Pass,Fail,Linux Error
+T124,5/5/2026,D124,Switch,Pass,Fail,Pass,Pass,Pass,Pass,Fail,Linux Error
+T125,5/6/2026,D125,IoT_Device,Pass,Pass,Pass,Pass,Fail,Fail,Fail,WiFi Failure
+T126,5/7/2026,D126,IoT_Device,Pass,Pass,Pass,Pass,Pass,Fail,Fail,WiFi Failure
+T127,5/8/2026,D127,Router,Pass,Fail,Pass,Pass,Pass,Pass,Fail,Linux Error
+T128,5/9/2026,D128,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T129,5/10/2026,D129,Mobile_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T130,5/11/2026,D130,Router,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T131,5/12/2026,D131,Mobile_Device,Pass,Fail,Pass,Pass,Pass,Pass,Fail,WiFi Failure
+T132,5/13/2026,D132,Mobile_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T133,5/14/2026,D133,Server,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T134,5/15/2026,D134,Router,Fail,Pass,Pass,Pass,Pass,Pass,Fail,Power Failure
+T135,5/16/2026,D135,IoT_Device,Pass,Pass,Pass,Pass,Pass,Fail,Fail,Camera Failure
+T136,5/17/2026,D136,Router,Pass,Pass,Pass,Pass,Fail,Pass,Fail,WiFi Failure
+T137,5/18/2026,D137,Mobile_Device,Pass,Pass,Pass,Pass,Pass,Fail,Fail,WiFi Failure
+T138,5/19/2026,D138,IoT_Device,Pass,Fail,Pass,Pass,Pass,Pass,Fail,Camera Failure
+T139,5/20/2026,D139,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T140,5/21/2026,D140,IoT_Device,Fail,Pass,Pass,Pass,Pass,Pass,Fail,WiFi Failure
+T141,5/22/2026,D141,Router,Pass,Pass,Pass,Pass,Pass,Fail,Fail,Power Failure
+T142,5/23/2026,D142,Switch,Pass,Pass,Fail,Pass,Pass,Pass,Fail,Linux Error
+T143,5/24/2026,D143,Router,Pass,Pass,Pass,Pass,Pass,Fail,Fail,WiFi Failure
+T144,5/25/2026,D144,Switch,Fail,Pass,Fail,Pass,Pass,Fail,Fail,Linux Error
+T145,5/26/2026,D145,Server,Pass,Pass,Fail,Pass,Pass,Pass,Fail,Script Error
+T146,5/27/2026,D146,Mobile_Device,Pass,Fail,Fail,Pass,Pass,Pass,Fail,WiFi Failure
+T147,5/28/2026,D147,Switch,Fail,Pass,Pass,Pass,Pass,Fail,Fail,Script Error
+T148,5/29/2026,D148,IoT_Device,Pass,Pass,Pass,Fail,Pass,Pass,Fail,Camera Failure
+T149,5/30/2026,D149,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T150,5/31/2026,D150,Router,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T151,6/1/2026,D151,Router,Pass,Fail,Fail,Fail,Pass,Pass,Fail,Linux Error
+T152,6/2/2026,D152,Switch,Fail,Pass,Pass,Pass,Pass,Pass,Fail,Linux Error
+T153,6/3/2026,D153,Router,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T154,6/4/2026,D154,Mobile_Device,Fail,Pass,Pass,Pass,Pass,Pass,Fail,WiFi Failure
+T155,6/5/2026,D155,Router,Pass,Fail,Pass,Pass,Pass,Pass,Fail,Script Error
+T156,6/6/2026,D156,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T157,6/7/2026,D157,Server,Pass,Pass,Pass,Fail,Pass,Pass,Fail,Script Error
+T158,6/8/2026,D158,Router,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T159,6/9/2026,D159,Switch,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T160,6/10/2026,D160,Mobile_Device,Fail,Fail,Pass,Pass,Pass,Fail,Fail,Script Error
+T161,6/11/2026,D161,Switch,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T162,6/12/2026,D162,IoT_Device,Fail,Fail,Pass,Pass,Pass,Pass,Fail,WiFi Failure
+T163,6/13/2026,D163,Router,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T164,6/14/2026,D164,Switch,Pass,Pass,Pass,Fail,Pass,Fail,Fail,WiFi Failure
+T165,6/15/2026,D165,Switch,Pass,Fail,Pass,Pass,Pass,Pass,Fail,WiFi Failure
+T166,6/16/2026,D166,Server,Fail,Pass,Pass,Pass,Pass,Pass,Fail,Linux Error
+T167,6/17/2026,D167,IoT_Device,Pass,Pass,Pass,Pass,Pass,Fail,Fail,Script Error
+T168,6/18/2026,D168,Switch,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T169,6/19/2026,D169,Router,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T170,6/20/2026,D170,Server,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T171,6/21/2026,D171,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T172,6/22/2026,D172,Switch,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T173,6/23/2026,D173,Router,Pass,Pass,Fail,Pass,Pass,Pass,Fail,WiFi Failure
+T174,6/24/2026,D174,Switch,Pass,Pass,Pass,Pass,Pass,Fail,Fail,WiFi Failure
+T175,6/25/2026,D175,Router,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T176,6/26/2026,D176,Server,Fail,Fail,Fail,Pass,Pass,Pass,Fail,WiFi Failure
+T177,6/27/2026,D177,Server,Pass,Pass,Pass,Pass,Pass,Fail,Fail,WiFi Failure
+T178,6/28/2026,D178,Server,Pass,Pass,Pass,Fail,Pass,Pass,Fail,Linux Error
+T179,6/29/2026,D179,Mobile_Device,Pass,Pass,Pass,Pass,Fail,Pass,Fail,Script Error
+T180,6/30/2026,D180,Router,Pass,Pass,Pass,Pass,Fail,Pass,Fail,Camera Failure
+T181,7/1/2026,D181,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T182,7/2/2026,D182,Switch,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T183,7/3/2026,D183,Router,Pass,Pass,Pass,Pass,Pass,Fail,Fail,Power Failure
+T184,7/4/2026,D184,Mobile_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T185,7/5/2026,D185,Mobile_Device,Pass,Fail,Pass,Pass,Pass,Pass,Fail,Power Failure
+T186,7/6/2026,D186,Switch,Pass,Fail,Pass,Pass,Pass,Pass,Fail,WiFi Failure
+T187,7/7/2026,D187,Router,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T188,7/8/2026,D188,Router,Pass,Fail,Fail,Pass,Pass,Pass,Fail,Power Failure
+T189,7/9/2026,D189,Switch,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T190,7/10/2026,D190,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T191,7/11/2026,D191,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T192,7/12/2026,D192,Mobile_Device,Pass,Fail,Pass,Pass,Pass,Pass,Fail,Linux Error
+T193,7/13/2026,D193,IoT_Device,Pass,Pass,Fail,Pass,Fail,Pass,Fail,Script Error
+T194,7/14/2026,D194,Switch,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T195,7/15/2026,D195,IoT_Device,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T196,7/16/2026,D196,Router,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T197,7/17/2026,D197,Switch,Pass,Pass,Pass,Pass,Pass,Pass,Pass,None
+T198,7/18/2026,D198,Server,Pass,Fail,Pass,Pass,Pass,Pass,Fail,Power Failure
+T199,7/19/2026,D199,IoT_Device,Pass,Fail,Pass,Pass,Pass,Pass,Fail,Power Failure
+T200,7/20/2026,D200,Mobile_Device,Pass,Pass,Fail,Pass,Pass,Pass,Fail,Linux Error
