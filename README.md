@@ -114,18 +114,3 @@ Name: count, dtype: int64
 Report Generated Successfully
 ==================================================================================
 
-Analysis_Queries
-====================
--- Total Tests
-![alt text](image.png)
-
--- Pass Rate
-![alt text](image-1.png)
-
--- Failures by Equipment
-![alt text](image-2.png)
-
--- Top Issues
-![alt text](image-3.png)
-
-=================================================================================
