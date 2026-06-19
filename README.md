@@ -1,219 +1,131 @@
 ## Test Tech Validation Project
 
-This project demonstrates all 8 responsibilities:
+====================
+test_analysis.py' 
+====================
+FIRST 10 RECORDS
+--------------------
+  Test_ID       Date Device_ID  ... Reliability_Test Overall_Result         Issue
+0    T001   1/2/2026      D001  ...             Pass           Pass           NaN
+1    T002   1/3/2026      D002  ...             Pass           Pass           NaN
+2    T003   1/4/2026      D003  ...             Pass           Pass           NaN
+3    T004   1/5/2026      D004  ...             Pass           Pass           NaN
+4    T005   1/6/2026      D005  ...             Pass           Fail  WiFi Failure
+5    T006   1/7/2026      D006  ...             Pass           Fail  Script Error
+6    T007   1/8/2026      D007  ...             Fail           Fail   Linux Error
+7    T008   1/9/2026      D008  ...             Pass           Pass           NaN
+8    T009  1/10/2026      D009  ...             Pass           Pass           NaN
+9    T010  1/11/2026      D010  ...             Pass           Pass           NaN
 
-Requirement	Project Activity
-1. SQL & Database Concepts	Store test results in MySQL
-2. System Validation & Equipment Setup	Verify devices before testing
-3. Linux & Python Operations	Run commands and automation scripts
-4. Assist with Validation Setup	Prepare test environment
-5. Functional & Reliability Testing	Execute hardware tests
-6. Python Automation	Analyze and process results
-7. Documentation	Save results in database
-8. Troubleshooting & Improvement	Identify failures and trends
+[10 rows x 12 columns]
 
-Project Architecture
-Hardware Device
-       ↓
-Validation Setup
-       ↓
-Functional Testing
-       ↓
-Reliability Testing
-       ↓
-Python Automation
-       ↓
-SQL Database
-       ↓
-KPI Analysis
-       ↓
-Excel Dashboard 
-       ↓
-Engineer Review
+TOTAL TESTS
+--------------------
+200
 
-Hardware-Test-Validation-System/
-│
-├── data/
-│   ├── test_data.csv
-│
-├── sql/
-│   ├── create_database.sql
-│   ├── analysis_queries.sql
-│
-├── python/
-│   ├── test_analysis.py
-│   ├── generate_report.py
-│
-├── dashboard/
-│   ├── Excel_Dashboard.xlsx
-│  
-│
-├── screenshots/
-│   ├── dashboard.png
-│
-├── README.md
+PASS FAIL SUMMARY
+--------------------
+Overall_Result
+Fail    121
+Pass     79
+Name: count, dtype: int64
+
+TESTS BY EQUIPMENT
+--------------------
+Equipment
+IoT_Device       47
+Router           45
+Switch           41
+Server           35
+Mobile_Device    32
+Name: count, dtype: int64
+
+FAILED DEVICES
+--------------------
+    Device_ID      Equipment          Issue
+4        D005  Mobile_Device   WiFi Failure
+5        D006         Router   Script Error
+6        D007         Switch    Linux Error
+11       D012     IoT_Device    Linux Error
+12       D013         Router   Script Error
+..        ...            ...            ...
+191      D192  Mobile_Device    Linux Error
+192      D193     IoT_Device   Script Error
+197      D198         Server  Power Failure
+198      D199     IoT_Device  Power Failure
+199      D200  Mobile_Device    Linux Error
+
+[121 rows x 3 columns]
+
+TOP ISSUES
+--------------------
+Issue
+WiFi Failure      32
+Power Failure     27
+Linux Error       26
+Script Error      21
+Camera Failure    15
+Name: count, dtype: int64
+
+RELIABILITY TEST RESULTS
+--------------------
+Reliability_Test
+Pass    161
+Fail     39
+Name: count, dtype: int64
+
+Analysis Complete
+==================================================================================
+
+=====================
+generate_report.py' 
+=====================
 
 
-# Step 1: Create MySQL Database
 
-# Step 2: Import Dataset in MySql
+===========================
+TEST VALIDATION REPORT
+==========================
+Total Tests  : 200
+Passed Tests : 79
+Failed Tests : 121
+Pass Rate    : 39.5%
 
-# Step 3: System Validation & Equipment Setup
+Equipment Failures
+--------------------------------------------------
+Equipment
+Router           27
+IoT_Device       26
+Mobile_Device    24
+Switch           23
+Server           21
+dtype: int64
 
-Before testing:
-
-Equipment Checklist
-Power Supply
-Test Router
-Test Server
-Linux Test Machine
-Test Scripts
-Network Connection
-
-Example:
-
-Device Connected ✓
-Power Available ✓
-WiFi Available ✓
-Test Script Loaded ✓
-
-This ensures a stable test environment.
-
-# Step 4: Functional Testing
-
-Check:
-
-Power Test
-Device Boots Correctly
-WiFi Test
-Device Connects to Network
-Camera Test
-Image Captured Successfully
-
-Results:
-
-Pass / Fail
-
-# Step 5: Reliability Testing
-
-Run device repeatedly.
-
-Example:
-
-100 Reboot Cycles
-24 Hour Run Test
-Stress Testing
-
-Purpose:
-
-Find intermittent failures
-
-# Step 6: Linux Operations
- 
- commands used by Test Technicians:
-
-For Check files 
- ls
-
-For Current location:
- pwd
-
-View logs:  
- Create a Sample Log File
-
-Linux:
-echo "Test Started" > log.txt
-echo "Device D001 Passed" >> log.txt
-echo "Device D002 Failed WiFi Test" >> log.txt
-
-View the file:
-cat log.txt
-
-Test Tech Use cat
-
-Command	               Purpose
-cat log.txt	         Display entire log
-tail log.txt	         View latest entries
-tail -f log.txt	   Monitor live logs
-grep FAIL log.txt	 Find failures
-wc -l log.txt	        Count log lines
-
-Example:
-
-grep FAIL test_log.txt
-
-Output:
-
-2026-01-01 08:12:00 Device D002 WiFi Test FAIL
-
-This is a common activity for Test Tech when troubleshooting failed hardware tests and reporting issues to engineers.
-
-Check processes:
-  ps
-
-Disk usage:
-  df -h
-
-# Step 7: Python Automation
-
-Read CSV and calculate KPIs.(python.py)
-
-# Step 8: SQL Analysis
-Total Tests
-Pass Rate
-Failures by Equipment
 Top Issues
+--------------------------------------------------
+Issue
+WiFi Failure      32
+Power Failure     27
+Linux Error       26
+Script Error      21
+Camera Failure    15
+Name: count, dtype: int64
 
-# KPI Dashboard
+Report Generated Successfully
+==================================================================================
 
-Created in Excel .
+Analysis_Queries
+====================
+-- Total Tests
+![alt text](image.png)
 
-KPI Cards
-Total Tests
-=COUNTA(A2:A201)
-Passed Tests
-=COUNTIF(K2:K201,"Pass")
-Failed Tests
-=COUNTIF(K2:K201,"Fail")
-Pass Rate %
-=Passed/Total
+-- Pass Rate
+![alt text](image-1.png)
 
-Dashboard Visuals
-Pass vs Fail
-Failures by Equipment
-Issues by Category
-Tests Over Time
+-- Failures by Equipment
+![alt text](image-2.png)
 
-Brief Explanation of Requirements 1–8
+-- Top Issues
+![alt text](image-3.png)
 
-1. SQL and Database Concepts
-
-Store test results, run queries, generate reports.
-
-2. System Validation and Equipment Setup
-
-Prepare devices and equipment before testing.
-
-3. Linux and Python Operations
-
-Use Linux commands and Python scripts for automation.
-
-4. Assist with Validation Setup
-
-Configure test stations and verify readiness.
-
-5. Functional and Reliability Testing
-
-Check device functionality and long-term stability.
-
-6. Execute Linux Commands and Python Scripts
-
-Collect logs, automate tests, and analyze results.
-
-7. Document Results and Report Issues
-
-Save findings in SQL and communicate failures.
-
-8. Troubleshooting and Continuous Improvement
-
-Identify root causes and recommend fixes.
+=================================================================================
